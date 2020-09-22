@@ -1,0 +1,38 @@
+<html>
+    <head><script src="{{url_for('static',filename='babel.min.js')}}"></script>
+        <script src="{{url_for('static',filename='react.production.min.js')}}" crossorigin></script>
+        <script src="{{url_for('static',filename='react-dom.production.min.js')}}" crossorigin></script>
+    </head>
+    <body>
+
+
+<!-- Start of Code-->
+<!-- Start of Code-->
+<!-- Start of Code-->
+<!-- Start of Code-->
+
+        <script type="text/babel">
+'use strict';
+class Contact extends React.Component {
+    render(){
+        const data = this.props.name
+        return <ol>
+        {{map}}
+        </ol>
+    }
+}
+
+
+const el= React.createElement("div",null,"Hello World fady")
+ReactDOM.render(<Contact/>,document.getElementById("root"))
+        </script>
+
+
+<!-- end of code -->
+<!-- end of code -->
+<!-- end of code -->
+<!-- end of code -->
+        <div id="root"></div>
+
+    </body>
+</html>
